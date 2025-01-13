@@ -25,8 +25,8 @@ Eğitim için scikit-learn ve TensorFlow gibi makine öğrenimi kütüphaneleri 
 **Değerlendirme:**
 
 ROC eğrisi ve karmaşıklık matrisi gibi metriklerle model performansı analiz edilmiştir.
-Performans Sonuçları
-## Modelin performansı, aşağıdaki değerlendirme sonuçlarıyla özetlenmiştir:
+
+## Modelin performansı
 
 **ROC Eğrisi (AUC Skoru)**
 AUC skoru 0.52 olarak hesaplanmıştır. Bu skor, modelin geliştirmeye açık olduğunu göstermektedir.
@@ -42,7 +42,7 @@ Kullanılan Teknolojiler
 Google Colab: Model geliştirme ve test.
 - **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, TensorFlow.
 - **Web Scraping:** Görsellerin otomatik toplanması.
-# Sonuç ve Gelecek Çalışmalar
+## Sonuç ve Gelecek Çalışmalar
 - Bu model, başlangıç seviyesinde bir performansa sahiptir. Daha büyük ve dengeli bir veri seti ile modelin doğruluğu artırılabilir. Gelecek çalışmalar için:
 
 Daha Fazla Veri Toplama: MR görüntülerinin çeşitliliği artırılabilir.
