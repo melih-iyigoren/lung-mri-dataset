@@ -27,13 +27,17 @@ ROC eğrisi ve karmaşıklık matrisi gibi metriklerle model performansı analiz
 ## Modelin performansı
 
 **ROC Eğrisi (AUC Skoru)**
+
 AUC skoru 0.52 olarak hesaplanmıştır. Bu skor, modelin geliştirmeye açık olduğunu göstermektedir.
 
 **Karmaşıklık Matrisi**
 
 Doğru Pozitif: 184
+
 Yanlış Pozitif: 62
+
 Doğru Negatif: 35
+
 Yanlış Negatif: 68
 
 # Projede aşağıdaki teknolojiler ve araçlar kullanılmıştır:
