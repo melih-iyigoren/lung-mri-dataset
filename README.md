@@ -5,8 +5,6 @@ Bu proje, akciğer MR (Manyetik Rezonans) görüntülerini analiz ederek kanser 
 ## Amaç
 Akciğer kanseri, erken teşhisle tedavi edilebilen bir hastalık olmasına rağmen çoğu durumda geç fark edilmektedir. Bu projede geliştirilen model, MR görüntülerine dayalı olarak akciğer kanseri varlığını tahmin etmek için tasarlanmıştır.
 
----
-
 ## Çalışma Süreci
 **Veri Toplama:**
 
@@ -44,8 +42,11 @@ Google Colab: Model geliştirme ve test.
 - **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, TensorFlow.
 - **Web Scraping:** Görsellerin otomatik toplanması.
 ## Sonuç ve Gelecek Çalışmalar
-- Bu model, başlangıç seviyesinde bir performansa sahiptir. Daha büyük ve dengeli bir veri seti ile modelin doğruluğu artırılabilir. Gelecek çalışmalar için:
 
-Daha Fazla Veri Toplama: MR görüntülerinin çeşitliliği artırılabilir.
-Model Optimizasyonu: Farklı mimariler ve hiperparametre ayarları denenebilir.
+Bu model, başlangıç seviyesinde bir performansa sahiptir. Daha büyük ve dengeli bir veri seti ile modelin doğruluğu artırılabilir. Gelecek çalışmalar için:
+
+- Daha Fazla Veri Toplama: MR görüntülerinin çeşitliliği artırılabilir.
+
+- Model Optimizasyonu: Farklı mimariler ve hiperparametre ayarları denenebilir.
+
 Bu çalışma, tıbbi teşhis süreçlerine teknolojik bir katkı sağlamayı amaçlayan önemli bir adımdır.
