@@ -40,7 +40,7 @@ Doğru Negatif: 35
 
 Yanlış Negatif: 68
 
-# Projede aşağıdaki teknolojiler ve araçlar kullanılmıştır:
+## Projede Kullanılar Teknolojiler ve Araçlar
 
 Google Colab: Model geliştirme ve test.
 - **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, TensorFlow.
