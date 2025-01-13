@@ -32,12 +32,13 @@ ROC eğrisi ve karmaşıklık matrisi gibi metriklerle model performansı analiz
 AUC skoru 0.52 olarak hesaplanmıştır. Bu skor, modelin geliştirmeye açık olduğunu göstermektedir.
 
 **Karmaşıklık Matrisi**
+
 Doğru Pozitif: 184
 Yanlış Pozitif: 62
 Doğru Negatif: 35
 Yanlış Negatif: 68
-Kullanılan Teknolojiler
-#Projede aşağıdaki teknolojiler ve araçlar kullanılmıştır:
+
+# Projede aşağıdaki teknolojiler ve araçlar kullanılmıştır:
 
 Google Colab: Model geliştirme ve test.
 - **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, TensorFlow.
