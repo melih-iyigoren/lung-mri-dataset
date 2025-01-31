@@ -18,33 +18,58 @@ Veri artırma (augmentation) teknikleri uygulanmıştır (döndürme, parlaklık
 
 **Model Eğitimi:**
 
-Eğitim için scikit-learn ve TensorFlow gibi makine öğrenimi kütüphaneleri kullanılmıştır.
+CNN mimarisinin yetersizliği nedeniyle model, transformatör tabanlı ağa dönüştürülmüştür. Model eğitiminde ViT, Swin Transformer, BEiT ve CvT kullanılmıştır.
+
+**BEiT Model Sonuçları:**
+
+Epoch: 10
+
+En iyi başarım: Accuracy: 1.0000
+
+AUC: 1.00
+
+Precision, Recall, F1-score: 1.00 (Sağlıklı ve Hastalı tespitlerinde %100 başarı)
+
+**Swin Model Sonuçları:**
+
+Epoch: 10
+
+En iyi başarım: Loss: 0.0000
+
+AUC: 1.00
+
+Confusion Matrix: 249 Doğru Pozitif, 305 Doğru Negatif
+
+**CvT Model Sonuçları:**
+
+Epoch: 4
+
+En iyi başarım: Loss: 0.0001
+
+AUC: 1.00
+
+Confusion Matrix: 249 Doğru Pozitif, 304 Doğru Negatif
+
+**ViT Model Sonuçları:**
+
+Epoch: 4
+
+En iyi başarım: Loss: 0.0030
+
+AUC: 1.00
+
+Confusion Matrix: 249 Doğru Pozitif, 304 Doğru Negatif
 
 **Değerlendirme:**
 
 ROC eğrisi ve karmaşıklık matrisi gibi metriklerle model performansı analiz edilmiştir.
 
-## Modelin performansı
-
-**ROC Eğrisi (AUC Skoru)**
-
-AUC skoru 0.52 olarak hesaplanmıştır. Bu skor, modelin geliştirmeye açık olduğunu göstermektedir.
-
-**Karmaşıklık Matrisi**
-
-Doğru Pozitif: 184
-
-Yanlış Pozitif: 62
-
-Doğru Negatif: 35
-
-Yanlış Negatif: 68
-
 ## Projede Kullanılar Teknolojiler ve Araçlar
 
 Google Colab: Model geliştirme ve test.
-- **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, TensorFlow.
+- **Python Kütüphaneleri:** NumPy, scikit-learn, matplotlib, PyTorch.
 - **Web Scraping:** Görsellerin otomatik toplanması.
+  
 ## Sonuç ve Gelecek Çalışmalar
 
 Bu model, başlangıç seviyesinde bir performansa sahiptir. Daha büyük ve dengeli bir veri seti ile modelin doğruluğu artırılabilir. Gelecek çalışmalar için:
